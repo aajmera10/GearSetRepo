@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Default_Contact__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Default Contact Information</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Company-level Contact</fullName>
+                    <default>true</default>
+                </value>
+                <value>
+                    <fullName>Primary Contact</fullName>
+                    <default>false</default>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <description>Settings for connected application Find Trade Ally</description>
+    <label>Find Trade Ally Setting</label>
+    <pluralLabel>Find Trade Ally Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,13 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "RecordType",
+                "referenceId": "RecordTypeRef1"
+            },
+            "Name": "Trade Ally",
+            "DeveloperName": "Trade_Ally",
+            "SobjectType": "Account"
+        }
+    ]
+}

@@ -1,0 +1,252 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef1"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Controls: Lighting"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef2"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Controls: Building Automation"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef3"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Energy Audits /Assessments"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef4"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Lighting"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef5"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Water Heating"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef6"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Test specialty"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef7"
+            },
+            "Sector__c": "Commercial",
+            "Name": "HVAC"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef8"
+            },
+            "Sector__c": "Residential",
+            "Name": "Lighting"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef9"
+            },
+            "Sector__c": "Residential",
+            "Name": "Appliances"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef10"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Farm and Dairy"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef11"
+            },
+            "Sector__c": "Residential",
+            "Name": "Ductless Heat Pump"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef12"
+            },
+            "Sector__c": "Residential",
+            "Name": "Duct Sealing"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef13"
+            },
+            "Sector__c": "Residential",
+            "Name": "Windows"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef14"
+            },
+            "Sector__c": "Residential",
+            "Name": "Furnace/Heat Pump"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef15"
+            },
+            "Sector__c": "Residential",
+            "Name": "Insulation/Air Sealing"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef16"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Mechanical Ventilation"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef17"
+            },
+            "Sector__c": "Residential",
+            "Name": "Water Heater"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef18"
+            },
+            "Sector__c": "Residential",
+            "Name": "Solar"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef19"
+            },
+            "Sector__c": "Residential",
+            "Name": "Small Medium HVAC"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef20"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Large HVAC"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef21"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Advanced Rooftop Controls"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef22"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Compressed Air"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef23"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Building Envelope"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef24"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Food Service Equipment"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef25"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Refrigeration"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef26"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Process Efficiency"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef27"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Office/Plug Load Equipment"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef28"
+            },
+            "Sector__c": "Commercial",
+            "Name": "Electrical Wiring"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef29"
+            },
+            "Sector__c": "Residential",
+            "Name": "Electric Vehicle Charging"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef30"
+            },
+            "Sector__c": "Residential",
+            "Name": "Multifamily Lighting"
+        },
+        {
+            "attributes": {
+                "type": "Specialty__c",
+                "referenceId": "Specialty__cRef31"
+            },
+            "Sector__c": "Residential",
+            "Name": "PTCS"
+        }
+    ]
+}

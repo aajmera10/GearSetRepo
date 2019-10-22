@@ -1,0 +1,20 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Territory__c",
+                "referenceId": "Territory__cRef1"
+            },
+            "Name": "WI",
+            "Territory_Type__c": "State"
+        },
+        {
+            "attributes": {
+                "type": "Territory__c",
+                "referenceId": "Territory__cRef2"
+            },
+            "Name": "WA",
+            "Territory_Type__c": "State"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+[
+    {
+        "sobject": "Specialty__c",
+        "saveRefs": true,
+        "files": ["Specialty__c.json"]
+    },
+    {
+        "sobject": "Territory__c",
+        "saveRefs": true,
+        "files": ["Territory__c.json"]
+    }, 
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": ["AccountsForDooplaRecordtypesWHo.json"]
+    },
+    {
+        "sobject": "Demographic__c",
+        "resolveRefs": true,
+        "files": ["Demographic__c.json"]
+    }
+    
+]

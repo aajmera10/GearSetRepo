@@ -1,0 +1,933 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef1"
+      },
+      "BillingCity": "Madison",
+      "BillingState": "WI",
+      "Application_Date__c": "2019-08-14",
+      "Approved_Application__c": false,
+      "Name": "OPQATest",
+      "Contract_Signed__c": false,
+      "Enable_External_Integration__c": false,
+      "External_Id__c": "1001537",
+      "Number_Of_Active_Users__c": 0,
+      "Phone": "1234567890",
+      "Registration_Code__c": "REG-001638",
+      "Search_Enabled__c": false,
+      "User_Limit__c": 0,
+      "Territory_Assignments__r": {
+        "records": []
+      },
+      "Trade_Ally_Specialties__r": {
+        "records": []
+      },
+      "Applications__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Application__c",
+              "referenceId": "Application__cRef1"
+            },
+            "Name": "a00f400000TJKwV",
+            "Application_Status__c": "Inactive",
+            "Accept__c": false,
+            "TC_Accepted_Agreed__c": false,
+            "isApplicationRecalled__c": false,
+            "New_Application_Flag__c": false,
+            "Terms_And_Conditions_Text__c": "<p><b><img src=\"https://tradeallydev-qa-ed--c.na59.content.force.com/servlet/rtaImage?eid=a00f400000TJKwV&amp;feoid=00Nf400000NELxq&amp;refid=0EMf4000000RXyd\" alt=\"Nexant logo\"></img></b></p><p>??</p><p><b>Terms and Conditions</b></p><p>The use of this website is NOW subject to the following terms of use:</p><p>- The content of the pages of this website is for your general information and use only. It is subject to change without notice.</p><p>- Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</p>"
+          }
+        ]
+      },
+      "Contacts": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef1"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "opatzke+qasub@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Secondary",
+            "FirstName": "QASubFirst",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": true,
+            "Submit_for_Approval__c": true,
+            "LastName": "QASubLast"
+          },
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef2"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "opatzke+qatestapp@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Primary",
+            "FirstName": "OmlataQATest",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "LastName": "PatzkeQATest"
+          }
+        ]
+      }  
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef2"
+      },
+      "BillingCity": "Madison",
+      "BillingState": "WI",
+      "Application_Date__c": "2019-08-14",
+      "Approved_Application__c": false,
+      "Business_Structure__c": "General Partnership",
+      "Business_Type__c": "Contractor",
+      "Name": "PrimaryCo",
+      "Contract_Signed__c": false,
+      "Enable_External_Integration__c": false,
+      "External_Id__c": "1001536",
+      "Legal_Company_Name__c": "PrimaryCo LLC",
+      "Number_Of_Active_Users__c": 0,
+      "Phone": "6083338181",
+      "Registration_Code__c": "REG-001637",
+      "Search_Enabled__c": false,
+      "User_Limit__c": 0,
+      "Applications__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Application__c",
+              "referenceId": "Application__cRef2"
+            },
+            "Name": "a00f400000TJL9H",
+            "Application_Status__c": "Inactive",
+            "Accept__c": false,
+            "TC_Accepted_Agreed__c": false,
+            "isApplicationRecalled__c": false,
+            "New_Application_Flag__c": false,
+            "Terms_And_Conditions_Text__c": "<p><b><img src=\"https://tradeallydev-qa-ed--c.na59.content.force.com/servlet/rtaImage?eid=a00f400000TJL9H&amp;feoid=00Nf400000NELxq&amp;refid=0EMf4000000RXyd\" alt=\"Nexant logo\"></img></b></p><p>??</p><p><b>Terms and Conditions</b></p><p>The use of this website is NOW subject to the following terms of use:</p><p>- The content of the pages of this website is for your general information and use only. It is subject to change without notice.</p><p>- Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</p>"
+          }
+        ]
+      },
+      "Territory_Assignments__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Territory_Assignment__c",
+              "referenceId": "Territory_Assignment__cRef1"
+            },
+            "Territory__c": "@Territory__cRef2"
+          }
+        ]
+      },
+      "Contacts": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef3"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "mmorrison+primary@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Primary",
+            "FirstName": "MarkPrimary",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "LastName": "MorrisonPrimary",
+            "MailingCity": "Madison",
+            "MailingPostalCode": "53558",
+            "MailingState": "WI",
+            "MailingStreet": "100 Park Street"
+          },
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef4"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "mmorrison+contractorsub@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Secondary",
+            "FirstName": "MarkContractorSub",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": true,
+            "Submit_for_Approval__c": true,
+            "LastName": "MorrisonContractorSub"
+          }
+        ]
+      },
+      "Trade_Ally_Specialties__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef1"
+            },
+            "Specialty__c": "@Specialty__cRef1"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef2"
+            },
+            "Specialty__c": "@Specialty__cRef2"
+          }
+        ]
+      }  
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef3"
+      },
+      "BillingCity": "Madison",
+      "BillingState": "WI",
+      "BillingPostalCode": "53558",
+      "BillingStreet": "100 Park Street",
+      "Application_Date__c": "2019-07-15",
+      "Approved_Application__c": false,
+      "Business_Structure__c": "LLC",
+      "Business_Type__c": "Contractor",
+      "Name": "DeleteCo",
+      "Contract_Signed__c": false,
+      "Enable_External_Integration__c": false,
+      "External_Id__c": "1001535",
+      "Legal_Company_Name__c": "DeleteCo LLC",
+      "Number_Of_Active_Users__c": 0,
+      "Phone": "6083893198",
+      "Registration_Code__c": "REG-001636",
+      "Search_Enabled__c": false,
+      "User_Limit__c": 0,
+      "Contacts": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef5"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "mmorrison+delete@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Primary",
+            "FirstName": "MarkDelete",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "LastName": "MorrisonDelete"
+          }
+        ]
+      },
+      "Applications__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Application__c",
+              "referenceId": "Application__cRef3"
+            },
+            "Name": "a00f400000SUQs7",
+            "Application_Status__c": "In Review",
+            "TC_Authorized_Company_Name__c": "sadfdsaf",
+            "TC_Authorized_Rep__c": "sadfsadf",
+            "TC_Authorized_Title__c": "asdfsdaf",
+            "Accept__c": false,
+            "TC_Accepted_Agreed__c": true,
+            "isApplicationRecalled__c": false,
+            "New_Application_Flag__c": false,
+            "Terms_And_Conditions_Text__c": "<p><b><img src=\"https://tradeallydev-qa-ed--c.na59.content.force.com/servlet/rtaImage?eid=a00f400000SUQs7&amp;feoid=00Nf400000NELxq&amp;refid=0EMf4000000RXyd\" alt=\"Nexant logo\"></img></b></p><p>??</p><p><b>Terms and Conditions</b></p><p>The use of this website is NOW subject to the following terms of use:</p><p>- The content of the pages of this website is for your general information and use only. It is subject to change without notice.</p><p>- Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</p>"
+          }
+        ]
+      },
+      "Territory_Assignments__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Territory_Assignment__c",
+              "referenceId": "Territory_Assignment__cRef2"
+            },
+            "Territory__c": "@Territory__cRef1"
+          }
+        ]
+      },
+      "Trade_Ally_Specialties__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef3"
+            },
+            "Specialty__c": "@Specialty__cRef3"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef4"
+            },
+            "Specialty__c": "@Specialty__cRef4"
+          }
+        ]
+      }  
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef4"
+      },
+      "BillingCity": "Madison",
+      "BillingState": "WI",
+      "BillingPostalCode": "53558",
+      "BillingStreet": "100 Park Street",
+      "Application_Date__c": "2019-07-10",
+      "Approved_Application__c": false,
+      "Business_Structure__c": "LLC",
+      "Name": "HeehaCo",
+      "Contract_Signed__c": false,
+      "Enable_External_Integration__c": false,
+      "External_Id__c": "1001534",
+      "Legal_Company_Name__c": "HeehaCo LLC",
+      "Number_Of_Active_Users__c": 0,
+      "Phone": "6083338211",
+      "Registration_Code__c": "REG-001635",
+      "Search_Enabled__c": false,
+      "User_Limit__c": 0,
+      "Applications__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Application__c",
+              "referenceId": "Application__cRef4"
+            },
+            "Name": "a00f400000SSaZM",
+            "Application_Status__c": "In Review",
+            "TC_Authorized_Company_Name__c": "asdfdsaf",
+            "TC_Authorized_Rep__c": "sadfdsaf",
+            "TC_Authorized_Title__c": "asdfsaf",
+            "Accept__c": false,
+            "TC_Accepted_Agreed__c": true,
+            "isApplicationRecalled__c": false,
+            "New_Application_Flag__c": false,
+            "Terms_And_Conditions_Text__c": "<p><b><img src=\"https://tradeallydev-qa-ed--c.na59.content.force.com/servlet/rtaImage?eid=a00f400000SSaZM&amp;feoid=00Nf400000NELxq&amp;refid=0EMf4000000RXyd\" alt=\"Nexant logo\"></img></b></p><p>??</p><p><b>Terms and Conditions</b></p><p>The use of this website is NOW subject to the following terms of use:</p><p>- The content of the pages of this website is for your general information and use only. It is subject to change without notice.</p><p>- Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</p>"
+          }
+        ]
+      },
+      "Territory_Assignments__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Territory_Assignment__c",
+              "referenceId": "Territory_Assignment__cRef3"
+            },
+            "Territory__c": "@Territory__cRef2"
+          }
+        ]
+      },
+      "Contacts": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef6"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "mmorrison+heeha@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Primary",
+            "FirstName": "HeehaFirst",
+            "Phone": "6088861489",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "LastName": "HeehaLast"
+          },
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef7"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Secondary",
+            "FirstName": "Sample",
+            "Phone": "6083331919",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "LastName": "Contactio"
+          }
+        ]
+      },
+      "Trade_Ally_Specialties__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef5"
+            },
+            "Specialty__c": "@Specialty__cRef5"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef6"
+            },
+            "Specialty__c": "@Specialty__cRef6"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef7"
+            },
+            "Specialty__c": "@Specialty__cRef7"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef8"
+            },
+            "Specialty__c": "@Specialty__cRef8"
+          }
+        ]
+      }  
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef5"
+      },
+      "BillingCity": "Madison",
+      "BillingState": "WI",
+      "BillingPostalCode": "53558",
+      "BillingStreet": "100 Park Street",
+      "Application_Date__c": "2019-07-10",
+      "Approved_Application__c": false,
+      "Business_Structure__c": "LLC",
+      "Name": "DocTest Co",
+      "Contract_Signed__c": false,
+      "Enable_External_Integration__c": false,
+      "External_Id__c": "1001533",
+      "Legal_Company_Name__c": "DocTest Co LLC",
+      "Number_Of_Active_Users__c": 0,
+      "Phone": "6083338838",
+      "Registration_Code__c": "REG-001634",
+      "Search_Enabled__c": false,
+      "User_Limit__c": 0,
+      "Contacts": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef8"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "mmorrison+doctest@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Primary",
+            "FirstName": "MarkDocTest",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "LastName": "MorrisonDocTest"
+          }
+        ]
+      },
+      "Applications__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Application__c",
+              "referenceId": "Application__cRef5"
+            },
+            "Name": "a00f400000SSa50",
+            "Application_Status__c": "Active",
+            "TC_Authorized_Company_Name__c": "asdfdsaf",
+            "TC_Authorized_Rep__c": "sddasf",
+            "TC_Authorized_Title__c": "asdfdsaf",
+            "Accept__c": false,
+            "TC_Accepted_Agreed__c": true,
+            "isApplicationRecalled__c": false,
+            "New_Application_Flag__c": false,
+            "Terms_And_Conditions_Text__c": "<p><b><img src=\"https://tradeallydev-qa-ed--c.na59.content.force.com/servlet/rtaImage?eid=a00f400000SSa50&amp;feoid=00Nf400000NELxq&amp;refid=0EMf4000000RXyd\" alt=\"Nexant logo\"></img></b></p><p>??</p><p><b>Terms and Conditions</b></p><p>The use of this website is NOW subject to the following terms of use:</p><p>- The content of the pages of this website is for your general information and use only. It is subject to change without notice.</p><p>- Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</p>"
+          }
+        ]
+      },
+      "Territory_Assignments__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Territory_Assignment__c",
+              "referenceId": "Territory_Assignment__cRef4"
+            },
+            "Territory__c": "@Territory__cRef1"
+          }
+        ]
+      },
+      "Trade_Ally_Specialties__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef9"
+            },
+            "Specialty__c": "@Specialty__cRef9"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef10"
+            },
+            "Specialty__c": "@Specialty__cRef10"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef11"
+            },
+            "Specialty__c": "@Specialty__cRef11"
+          }
+        ]
+      }  
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef6"
+      },
+      "BillingCity": "test",
+      "BillingState": "AL",
+      "Application_Date__c": "2019-07-04",
+      "Approved_Application__c": false,
+      "Name": "test",
+      "Contract_Signed__c": false,
+      "Enable_External_Integration__c": false,
+      "External_Id__c": "1001532",
+      "Number_Of_Active_Users__c": 0,
+      "Phone": "123123",
+      "Registration_Code__c": "REG-001633",
+      "Search_Enabled__c": false,
+      "User_Limit__c": 0,
+      "Territory_Assignments__r": {
+        "records": []
+      },
+      "Trade_Ally_Specialties__r": {
+        "records": []
+      },
+      "Contacts": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef9"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "atishm+ta123@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Primary",
+            "FirstName": "atish",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "LastName": "mungi"
+          }
+        ]
+      },
+      "Applications__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Application__c",
+              "referenceId": "Application__cRef6"
+            },
+            "Name": "a00f400000S4Nql",
+            "Application_Status__c": "Inactive",
+            "Accept__c": false,
+            "TC_Accepted_Agreed__c": false,
+            "isApplicationRecalled__c": false,
+            "New_Application_Flag__c": false,
+            "Terms_And_Conditions_Text__c": "<p><b><img src=\"https://tradeallydev-qa-ed--c.na59.content.force.com/servlet/rtaImage?eid=a00f400000S4Nql&amp;feoid=00Nf400000NELxq&amp;refid=0EMf4000000RXyd\" alt=\"Nexant logo\"></img></b></p><p>??</p><p><b>Terms and Conditions</b></p><p>The use of this website is NOW subject to the following terms of use:</p><p>- The content of the pages of this website is for your general information and use only. It is subject to change without notice.</p><p>- Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</p>"
+          }
+        ]
+      }  
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef7"
+      },
+      "BillingCity": "Madison",
+      "BillingState": "WI",
+      "BillingPostalCode": "53558",
+      "BillingStreet": "100 Park Street",
+      "Application_Date__c": "2019-07-02",
+      "Approved_Application__c": false,
+      "Business_Structure__c": "LLC",
+      "Name": "ValidCo",
+      "Contract_Signed__c": false,
+      "Enable_External_Integration__c": false,
+      "External_Id__c": "1001531",
+      "Legal_Company_Name__c": "ValidCo LLC",
+      "Number_Of_Active_Users__c": 0,
+      "Phone": "6083331818",
+      "Registration_Code__c": "REG-001632",
+      "Search_Enabled__c": false,
+      "User_Limit__c": 0,
+      "Contacts": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef10"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "mmorrison+valid@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Primary",
+            "FirstName": "MarkValid",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "LastName": "MorrisonValid"
+          }
+        ]
+      },
+      "Applications__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Application__c",
+              "referenceId": "Application__cRef7"
+            },
+            "Name": "a00f400000S4II0",
+            "Application_Status__c": "In Review",
+            "TC_Authorized_Company_Name__c": "Joe Rep",
+            "TC_Authorized_Rep__c": "Sample Rep",
+            "TC_Authorized_Title__c": "New Title",
+            "Accept__c": false,
+            "TC_Accepted_Agreed__c": true,
+            "isApplicationRecalled__c": false,
+            "New_Application_Flag__c": false,
+            "Terms_And_Conditions_Text__c": "<p><b><img src=\"https://tradeallydev-qa-ed--c.na59.content.force.com/servlet/rtaImage?eid=a00f400000S4II0&amp;feoid=00Nf400000NELxq&amp;refid=0EMf4000000RXyd\" alt=\"Nexant logo\"></img></b></p><p>??</p><p><b>Terms and Conditions</b></p><p>The use of this website is NOW subject to the following terms of use:</p><p>- The content of the pages of this website is for your general information and use only. It is subject to change without notice.</p><p>- Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</p>"
+          }
+        ]
+      },
+      "Territory_Assignments__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Territory_Assignment__c",
+              "referenceId": "Territory_Assignment__cRef5"
+            },
+            "Territory__c": "@Territory__cRef2"
+          }
+        ]
+      },
+      "Trade_Ally_Specialties__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef12"
+            },
+            "Specialty__c": "@Specialty__cRef12"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef13"
+            },
+            "Specialty__c": "@Specialty__cRef13"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef14"
+            },
+            "Specialty__c": "@Specialty__cRef14"
+          }
+        ]
+      }  
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef8"
+      },
+      "BillingCity": "Madison",
+      "BillingState": "WI",
+      "Application_Date__c": "2019-07-01",
+      "Approved_Application__c": false,
+      "Business_Structure__c": "LLC",
+      "Name": "DocCo",
+      "Contract_Signed__c": false,
+      "Enable_External_Integration__c": false,
+      "External_Id__c": "1001530",
+      "Legal_Company_Name__c": "DocCo LLC",
+      "Number_Of_Active_Users__c": 0,
+      "Phone": "6083338828",
+      "Registration_Code__c": "REG-001631",
+      "Search_Enabled__c": false,
+      "User_Limit__c": 0,
+      "Contacts": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef11"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "mmorrison+doc@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Primary",
+            "FirstName": "MarkDoc",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "LastName": "MorrisonDoc"
+          }
+        ]
+      },
+      "Applications__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Application__c",
+              "referenceId": "Application__cRef8"
+            },
+            "Name": "a00f400000S4Eal",
+            "Application_Status__c": "In Review",
+            "TC_Authorized_Company_Name__c": "Sample Co",
+            "TC_Authorized_Rep__c": "Sample Rep",
+            "TC_Authorized_Title__c": "Sample Title",
+            "Accept__c": false,
+            "TC_Accepted_Agreed__c": true,
+            "isApplicationRecalled__c": false,
+            "New_Application_Flag__c": false,
+            "Terms_And_Conditions_Text__c": "<p><b><img src=\"https://tradeallydev-qa-ed--c.na59.content.force.com/servlet/rtaImage?eid=a00f400000S4Eal&amp;feoid=00Nf400000NELxq&amp;refid=0EMf4000000RXyd\" alt=\"Nexant logo\"></img></b></p><p>??</p><p><b>Terms and Conditions</b></p><p>The use of this website is NOW subject to the following terms of use:</p><p>- The content of the pages of this website is for your general information and use only. It is subject to change without notice.</p><p>- Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</p>"
+          }
+        ]
+      },
+      "Territory_Assignments__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Territory_Assignment__c",
+              "referenceId": "Territory_Assignment__cRef6"
+            },
+            "Territory__c": "@Territory__cRef1"
+          }
+        ]
+      },
+      "Trade_Ally_Specialties__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef15"
+            },
+            "Specialty__c": "@Specialty__cRef15"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef16"
+            },
+            "Specialty__c": "@Specialty__cRef16"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef17"
+            },
+            "Specialty__c": "@Specialty__cRef17"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef18"
+            },
+            "Specialty__c": "@Specialty__cRef18"
+          }
+        ]
+      }  
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef9"
+      },
+      "BillingCity": "Karnal",
+      "BillingState": "KS",
+      "Application_Date__c": "2019-06-25",
+      "Approved_Application__c": false,
+      "Name": "TestProfile",
+      "Contract_Signed__c": false,
+      "Enable_External_Integration__c": false,
+      "External_Id__c": "1001529",
+      "Number_Of_Active_Users__c": 0,
+      "Phone": "5485859658",
+      "Registration_Code__c": "REG-001630",
+      "Search_Enabled__c": false,
+      "User_Limit__c": 0,
+      "Applications__r": {
+        "records": []
+      },
+      "Territory_Assignments__r": {
+        "records": []
+      },
+      "Trade_Ally_Specialties__r": {
+        "records": []
+      },
+      "Contacts": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef12"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "rgupta+16@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Level__c": "Primary",
+            "FirstName": "Raghav",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "LastName": "Bhatia"
+          }
+        ]
+      }  
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef10"
+      },
+      "BillingCity": "pune",
+      "BillingState": "MA",
+      "BillingPostalCode": "12345",
+      "BillingStreet": "test",
+      "Application_Date__c": "2019-06-20",
+      "Approved_Application__c": false,
+      "Business_Structure__c": "General Partnership",
+      "Business_Type__c": "Contractor",
+      "Name": "AlphaNumaric",
+      "Contract_Signed__c": false,
+      "Enable_External_Integration__c": false,
+      "External_Id__c": "1001528",
+      "Legal_Company_Name__c": "nexant",
+      "Number_Of_Active_Users__c": 0,
+      "Phone": "1234567890",
+      "Registration_Code__c": "REG-001629",
+      "Search_Enabled__c": false,
+      "User_Limit__c": 0,
+      "Contacts": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Contact",
+              "referenceId": "ContactRef13"
+            },
+            "Authorized_Representative__c": false,
+            "Contact_Needs_Review__c": false,
+            "DoNotCall": false,
+            "Email": "akalaskar+a44@nexant.com",
+            "HasOptedOutOfEmail": false,
+            "Fax": "(123) 456-7890",
+            "Level__c": "Primary",
+            "MobilePhone": "(123) 456-7890",
+            "FirstName": "neha",
+            "Phone": "(123) 456-7890",
+            "Primary_Office_Name__c": "nexant",
+            "Sales_Contact__c": false,
+            "Sub_User_Approved__c": false,
+            "Submit_for_Approval__c": false,
+            "Title": "test",
+            "LastName": "kale",
+            "MailingCity": "pune",
+            "MailingPostalCode": "12345",
+            "MailingState": "ma",
+            "MailingStreet": "test"
+          }
+        ]
+      },
+      "Applications__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Application__c",
+              "referenceId": "Application__cRef9"
+            },
+            "Name": "a00f400000RqdP2",
+            "Application_Status__c": "In Review",
+            "TC_Authorized_Company_Name__c": "test",
+            "TC_Authorized_Rep__c": "test",
+            "TC_Authorized_Title__c": "test",
+            "Accept__c": false,
+            "TC_Accepted_Agreed__c": true,
+            "isApplicationRecalled__c": false,
+            "New_Application_Flag__c": false,
+            "Terms_And_Conditions_Text__c": "<p><b><img src=\"https://tradeallydev-qa-ed--c.na59.content.force.com/servlet/rtaImage?eid=a00f400000RqdP2&amp;feoid=00Nf400000NELxq&amp;refid=0EMf4000000RXyd\" alt=\"Nexant logo\"></img></b></p><p>??</p><p><b>Terms and Conditions</b></p><p>The use of this website is NOW subject to the following terms of use:</p><p>- The content of the pages of this website is for your general information and use only. It is subject to change without notice.</p><p>- Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.</p>"
+          }
+        ]
+      },
+      "Territory_Assignments__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Territory_Assignment__c",
+              "referenceId": "Territory_Assignment__cRef7"
+            },
+            "Territory__c": "@Territory__cRef2"
+          }
+        ]
+      },
+      "Trade_Ally_Specialties__r": {
+        "records": [
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef19"
+            },
+            "Specialty__c": "@Specialty__cRef19"
+          },
+          {
+            "attributes": {
+              "type": "Trade_Ally_Specialty__c",
+              "referenceId": "Trade_Ally_Specialty__cRef20"
+            },
+            "Specialty__c": "@Specialty__cRef20"
+          }
+        ]
+      }  
+    }
+  ]
+}

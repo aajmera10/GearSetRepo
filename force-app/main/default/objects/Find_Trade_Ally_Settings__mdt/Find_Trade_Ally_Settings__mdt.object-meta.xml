@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Settings for connected application Find Trade Ally</description>
+    <label>Find Trade Ally Setting</label>
+    <pluralLabel>Find Trade Ally Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,15 @@
+{
+  "orgName": "Demo Company",
+  "edition": "Developer",
+  "features": ["Communities", "LiveAgent"],
+  "settings": {
+    "orgPreferenceSettings": {
+      "s1DesktopEnabled": true,
+      "networksEnabled": true,
+      "chatterEnabled": true
+  },
+  "liveAgentSettings": {
+      "enableLiveAgent": true
+  }
+  }
+}
